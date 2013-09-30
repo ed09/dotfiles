@@ -1,0 +1,10 @@
+! Xterm
+
+XTerm*background: black
+XTerm*foreground: grey
+XTerm*cursorColor: green
+!XTerm*faceSize: 11
+XTerm*renderFont: true
+XTerm*utf8Latin1: true
+
+
