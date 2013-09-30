@@ -1,0 +1,52 @@
+! Urxvt
+
+!Black
+    URxvt.color0: #000000
+    URxvt.color8: #555753
+!Red
+    URxvt.color1: #990099
+    URxvt.color9: #8E388E
+!Green
+    URxvt.color2: #4E9A06
+    URxvt.color10: #699000
+!Yellow
+    URxvt.color3: #FFA500
+    URxvt.color11: #FFA500
+!Blue
+    URxvt.color4: #3465A4
+    URxvt.color12: #729FCF
+!Magenta
+    URxvt.color5: #75507B
+    URxvt.color13: #AD7FA8
+!Cyan
+    URxvt.color6: #06989A
+    URxvt.color14: #34E2E2
+!White
+    URxvt.color7: #FFFFFF
+    URxvt.color15: #FFFFFF
+
+! Do not include the scroll bar
+URxvt.scrollBar:false
+! Transparency
+!    URxvt.depth: 32
+!    URxvt.background:[80]#000000
+! Foreground
+!    URxvt.foreground:#699000
+    URxvt.foreground:#91C700
+! Cursor color
+    URxvt.cursorColor:#699000
+! Blinking cursor
+    URxvt.cursorBlink:true
+! Space between characters
+    URxvt.letterSpace:-1
+! Tabs
+    URxvt.perl-ext-commoni:default,tabbed
+! Buffers
+    URxvt.buffered: false
+! Font
+!URxvt.font: URxvt*font: -*-terminus-*-*-*-*-15-*-*-*-*-*-*-u
+!URxvt*font: xft:Liberation mono-10
+URxvt.font: xft:Terminus:pixelsize=15:antialias=false
+!URxvt.font: xft: Inconsolata:pixelsize=15
+!URxvt.font: xft:DejaVuSansMono:pixelsize=14
+!URxvt.font: xft:DroidSansMono:pixelsize=14
