@@ -13,16 +13,23 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
-#font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose an xft font, such as:
-font xft:DejaVu Sans Mono 10
+#font xft:DejaVu Sans Mono 10
 
 # My config 
 #exec feh --bg-scale /home/edu/Descargas/"wallpaper-matrix.png"
 #exec feh --bg-scale /home/edu/Dropbox/Edik/"Computer staff"/Imagenes/
+#exec feh --bg-scale ~/Imagenes/abstract_blue_kde_plasma_desktop_1920x1200_hd-wallpaper-1137656.png
+#exec feh --bg-scale /home/edu/Imagenes/"The Winter.jpg"
+#exec feh --bg-scale /home/edu/Imagenes/"the-alps-2.jpg"
+exec feh --bg-scale ~/Imagenes/ws_Light_arch_1920x1200.jpg
+
+# SpiderOak
+exec SpiderOak
 
 # Dropbox
 exec dropboxd
