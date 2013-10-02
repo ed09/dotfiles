@@ -30,6 +30,8 @@ URxvt.scrollBar:false
 ! Transparency
 !    URxvt.depth: 32
 !    URxvt.background:[80]#000000
+! Background
+    URxvt.background: #000000
 ! Foreground
 !    URxvt.foreground:#699000
     URxvt.foreground:#91C700
@@ -43,6 +45,7 @@ URxvt.scrollBar:false
     URxvt.perl-ext-commoni:default,tabbed
 ! Buffers
     URxvt.buffered: false
+
 ! Font
 !URxvt.font: URxvt*font: -*-terminus-*-*-*-*-15-*-*-*-*-*-*-u
 !URxvt*font: xft:Liberation mono-10
