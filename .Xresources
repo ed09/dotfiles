@@ -1,5 +1,7 @@
 ! Urxvt
 
+! Update with xrdb -merge .Xresources
+
 !Black
     URxvt.color0: #000000
     URxvt.color8: #555753
