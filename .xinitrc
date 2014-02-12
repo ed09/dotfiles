@@ -1,8 +1,7 @@
 #!/bin/sh
 
-#exec openbox-session
 #exec i3
-exec startkde
+ exec startkde
 
 xrdb -merge ~/.Xresources
 
@@ -10,6 +9,14 @@ xrdb -merge ~/.Xresources
  #   xmodmap ~/.Xmodmap
 #fi
 
-setxkbmap us
+#setxkbmap us
 #xmodmap ~/Descargas/colemak-1.0/xmodmap/xmodmap.colemak && xset r 66
+
+#cd ~/Documentos/Development/Programs\ finished/Change\ xinitrc\ to\ i3/
+#./Change_xinitrc_to_i3
+
+#startx -- :1 &
+
+#cd ~/Documentos/Development/Programs\ finished/Change\ xinitrc\ to\ kde/
+#./Change_xinitrc_to_kde
 

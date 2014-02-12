@@ -1,6 +1,4 @@
-! Urxvt
-
-! Update with xrdb -merge .Xresources
+! Urxvt configurations
 
 !Black
     URxvt.color0: #000000
@@ -32,8 +30,6 @@ URxvt.scrollBar:false
 ! Transparency
 !    URxvt.depth: 32
 !    URxvt.background:[80]#000000
-! Background
-    URxvt.background: #000000
 ! Foreground
 !    URxvt.foreground:#699000
     URxvt.foreground:#91C700
@@ -47,7 +43,6 @@ URxvt.scrollBar:false
     URxvt.perl-ext-commoni:default,tabbed
 ! Buffers
     URxvt.buffered: false
-
 ! Font
 !URxvt.font: URxvt*font: -*-terminus-*-*-*-*-15-*-*-*-*-*-*-u
 !URxvt*font: xft:Liberation mono-10
@@ -55,3 +50,19 @@ URxvt.font: xft:Terminus:pixelsize=15:antialias=false
 !URxvt.font: xft: Inconsolata:pixelsize=15
 !URxvt.font: xft:DejaVuSansMono:pixelsize=14
 !URxvt.font: xft:DroidSansMono:pixelsize=14
+
+
+
+
+!urxvt.background: #111111 
+!urxvt.foreground: 15
+URxvt.background: #000000
+
+! |- Definimos el color de fondo de las pestañas
+    URxvt.tabbed.tab-bg:#000000
+! |- Definimos el color frontal de las pestañas
+    URxvt.tabbed.tab-fg:#699000
+! |- Definimos el color de fondo de los separadores de pestañas
+    URxvt.tabbed.tabbar-bg:#000000
+! |- Definimos el color frontal de los separadores de las pestañas
+    URxvt.tabbed.tabbar-fg:#4E9A06
